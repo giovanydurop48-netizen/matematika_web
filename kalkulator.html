@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index Matematika — Kalkulator</title><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="navbar"><a class="brand" href="index.html"><span class="pi">π</span><span>Index Matematika</span></a><nav><a href="index.html">Beranda</a><a href="geogebra.html">GeoGebra</a><a class="active" href="kalkulator.html">Kalkulator</a><a href="logika.html">Gerbang Logika</a><a href="profil.html">Profil</a></nav></header>
+<main class="container">
+  <a class="back" href="index.html">← Kembali</a>
+  <span class="badge">Alat Matematika</span><h1 class="page-title green">Kalkulator</h1>
+  <p class="lead">Gunakan kalkulator ini untuk melakukan perhitungan matematika dengan mudah dan cepat. Tersedia operasi dasar hingga fungsi ilmiah.</p>
+  <div class="calculator-layout">
+    <div class="calculator">
+      <input id="display" class="display" value="0" readonly>
+      <div class="calc-grid">
+        <button data-action="clear">C</button><button data-value="(">(</button><button data-value=")">)</button><button data-value="/">÷</button>
+        <button data-value="7">7</button><button data-value="8">8</button><button data-value="9">9</button><button data-value="*">×</button>
+        <button data-value="4">4</button><button data-value="5">5</button><button data-value="6">6</button><button data-value="-">−</button>
+        <button data-value="1">1</button><button data-value="2">2</button><button data-value="3">3</button><button data-value="+">+</button>
+        <button data-value="0">0</button><button data-value=".">.</button><button class="equal" data-action="calculate">=</button>
+      </div>
+    </div>
+    <aside class="panel examples"><h2>Contoh Penggunaan</h2><ul><li>Penjumlahan: 12 + 8 = 20</li><li>Pengurangan: 15 − 7 = 8</li><li>Perkalian: 6 × 9 = 54</li><li>Pembagian: 20 ÷ 4 = 5</li><li>Pangkat: 2³ = 8</li><li>Akar: √16 = 4</li><li>Logaritma: log(100) = 2</li></ul><div class="notice">ⓘ Kalkulator ini mendukung perhitungan dasar dan fungsi umum.</div></aside>
+  </div>
+</main>
+<footer><span>© 2025 Index Matematika</span><span class="footer-links"><a href="index.html">Beranda</a><a href="geogebra.html">GeoGebra</a><a href="kalkulator.html">Kalkulator</a><a href="logika.html">Gerbang Logika</a><a href="profil.html">Profil</a></span></footer>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index Matematika — Gerbang Logika</title><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="navbar"><a class="brand" href="index.html"><span class="pi">π</span><span>Index Matematika</span></a><nav><a href="index.html">Beranda</a><a href="geogebra.html">GeoGebra</a><a href="kalkulator.html">Kalkulator</a><a class="active" href="logika.html">Gerbang Logika</a><a href="profil.html">Profil</a></nav></header>
+<main class="container">
+  <a class="back" href="index.html">← Kembali</a><span class="badge">Materi & Latihan</span><h1 class="page-title green">Gerbang Logika</h1>
+  <p class="lead">Gerbang logika adalah rangkaian elektronik yang digunakan untuk mengolah sinyal logika (0 dan 1).</p>
+  <div class="logic-layout">
+    <div class="logic-cards">
+      <article class="logic-card"><h2>AND</h2><div class="gate">A ──┐<br>B ──┤ <span>AND</span> ── Y</div><p>Output bernilai 1 hanya jika semua input bernilai 1.</p></article>
+      <article class="logic-card"><h2>OR</h2><div class="gate">A ──┐<br>B ──┤ <span>OR</span> ── Y</div><p>Output bernilai 1 jika minimal satu input bernilai 1.</p></article>
+      <article class="logic-card"><h2>NOT</h2><div class="gate">A ── <span>NOT</span> ── Y</div><p>Output adalah kebalikan dari input.</p></article>
+    </div>
+    <section class="quiz panel"><h2>Latihan Soal</h2>
+      <div class="question"><p>1. Output dari gerbang AND dengan input A = 1 dan B = 1 adalah ...</p><label><input type="radio" name="q1" value="0"> A. 0</label><label><input type="radio" name="q1" value="1"> B. 1</label><label><input type="radio" name="q1" value="2"> C. 2</label><label><input type="radio" name="q1" value="x"> D. Tidak tentu</label></div>
+      <div class="question"><p>2. Output dari gerbang OR dengan input A = 0 dan B = 0 adalah ...</p><label><input type="radio" name="q2" value="0"> A. 0</label><label><input type="radio" name="q2" value="1"> B. 1</label><label><input type="radio" name="q2" value="2"> C. 2</label><label><input type="radio" name="q2" value="x"> D. Tidak tentu</label></div>
+      <div class="question"><p>3. Jika input A = 1 pada gerbang NOT, maka outputnya adalah ...</p><label><input type="radio" name="q3" value="0"> A. 0</label><label><input type="radio" name="q3" value="1"> B. 1</label><label><input type="radio" name="q3" value="2"> C. 2</label><label><input type="radio" name="q3" value="x"> D. Tidak tentu</label></div>
+      <button class="btn" id="checkQuiz">Cek Jawaban</button><div id="quizResult" class="result"></div>
+    </section>
+  </div>
+</main>
+<footer><span>© 2025 Index Matematika</span><span class="footer-links"><a href="index.html">Beranda</a><a href="geogebra.html">GeoGebra</a><a href="kalkulator.html">Kalkulator</a><a href="logika.html">Gerbang Logika</a><a href="profil.html">Profil</a></span></footer>
+<script src="js/app.js"></script>
+</body>
+</html>
